@@ -1,0 +1,71 @@
+/*Comenzamos por elegir el tamaño y la alineación de nuestro texto*/
+html {
+    font-size: 16px;
+    text-align: center
+}
+
+/*Editamos la fuente de texto aprendida en la anterior clase*/
+@media screen and(wax-width: 400px) {
+    html {
+        font-size: 9.45px;
+    }
+}
+
+/*Editamos los textos contenidos en h1*/
+h1 {
+    font-size: 100px;
+    text-align: center
+}
+
+
+/*Altura*/
+html,
+body {
+height: 100%;
+
+}
+
+/*Editamos el cuerpo con el tipo de letra y fondo, el comando font-family es 
+importante usar el mismo nombre que aparece en el codigo de Google font*/
+body {
+    background: rgba(162, 147, 4, 0.719);
+    font-family: "Oswald";
+    margin: 0;
+    padding: 0;
+}
+/*Editamos la tabla su color y margen para tener un centrado óptimo*/
+table {
+    background-color: rgb(87, 120, 255);
+    margin:auto
+}
+/*Creamos la función antes aprendida para los links y así tener una presentación mas formal*/
+a:hover,
+a:focus,
+a:active {
+    color: #1c4983;
+}
+/*En esta parte simplemente hacemos que cada clase de nuestras imagenes tengan el tamaño que quiero*/
+.ppj {
+    width: 1228px;
+
+}
+.img {
+    width: 1228px;
+
+}
+
+.imagen2 {
+    width: 1228px;
+}
+
+.IE {
+    width: 1228px;
+}
+/*En este apartado edito lo que viene siendo la clase de las imagenes
+ de los escudos con su respectivo centrado y tamaño */
+.escudos img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
